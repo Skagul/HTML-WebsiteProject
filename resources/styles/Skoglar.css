@@ -1,14 +1,11 @@
 		.Mordian {
-			
-			background-color: #003366;
+			overflow: auto;
+			background-color: grey;
 			font-family: Verdana, Geneva, sans-serif;
-			color: #ffcc00;
-			link: {
-				color: #ffcc00;}
-			visited: {
-				color: #ffcc00;}
-
-		}
+			color: black;
+			h1: #ffcc00
+				}
+					
 		.Cadian {
 			background-color: #003366;
 			font-family: Verdana, Geneva, sans-serif;

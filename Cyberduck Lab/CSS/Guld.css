@@ -1,0 +1,36 @@
+
+body {
+		font-family: Verdana, Geneva, sans-serif;
+		background-color: #383b3f;}
+h1 {
+	color: #b29600;
+	text-align center
+}
+p {
+	color: black;
+}
+.bordermoat {
+	margin: 30px;
+    width: 60%;
+    padding: 10px;
+	border: 1px solid #665544;
+	background-color: LightGrey;
+	padding: inherit;
+	width: 1000px;
+	text-align: center
+}
+.Menu {
+
+    adding: 10px;
+	border: 1px solid #665544;
+	background-color: LightGrey;
+	padding: inherit;
+	width: 360px;
+	color: #b29600;
+	align: center;
+    
+}
+li {
+	display: inline;
+	padding: 0px;
+} 
