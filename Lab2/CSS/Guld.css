@@ -4,6 +4,16 @@ body {
 h1 {
 	color: #b29600;
 	text-align: center;
+	font-size: 90%
+}
+h2 {
+	color: #b29600;
+	text-align: center;
+}
+h3 {
+	color: #b29600;
+	text-align: center;
+	
 }
 p {
 	color: black;
@@ -13,17 +23,14 @@ p {
     width: 60%;
     padding: 10px;
 	border: 1px solid #665544;
-	background-color: LightGrey;
-	padding: inherit;
-	width: 1000px;
+	background-color: silver;
 	text-align: center
 }
 .Menu {
-
+	margin: 30px;
     padding: 10px;
 	border: 1px solid #665544;
-	background-color: LightGrey;
-	padding: inherit;
+	background-color: silver;
 	width: 360px;
 	color: #b29600;
     
@@ -36,29 +43,31 @@ li {
 	padding: 0;
 	
 	
-} 
-nav {
-	align: center;
 }
-.BMXmas {
-	margin: 30px;
-    width: 60%;
-    padding: 10px;
-	border: 1px solid #665544;
-	background-color: LightGrey;
-	padding: inherit;
-	width: 1000px;
-	text-align: center
-}
-.MXmas {
-
-    padding: 10px;
-	border: 1px solid red;
-	background-color: LightGrey;
-	padding: inherit;
-	width: 360px;
-	color: red;
-    
-}
-.current
+.current {
+	background-color: yellow;
+	color: black;
 	
+}
+table {
+width: 360px;}
+td, td {
+	padding: 7px 10px 10px 10px;}
+th {
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size 90%;
+	border-bottom: 2px solid #111111;
+	border-top: 1px solid #999;
+	text-align: left;}
+
+tr.even {
+	background-color: #efefef;}
+
+}	
+tr:hover {
+background-color: #c3e6e5;}
+.money {
+text-align: right;}
+}
+}
