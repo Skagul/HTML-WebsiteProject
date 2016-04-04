@@ -18,6 +18,16 @@ h3 {
 p {
 	color: black;
 }
+article_table {
+	margin: 30px;
+    width: 60%;
+    padding: 10px;
+	border: 1px solid #665544;
+	background-color: silver;
+	text-align: center;
+	overflow: auto;
+}
+
 .bordermoat {
 	margin: 30px;
     width: 60%;
@@ -26,6 +36,14 @@ p {
 	background-color: silver;
 	text-align: center;
 	overflow: auto;
+	
+	
+}
+img.bordermoat {
+	align: center;
+	margin: 30px;
+	max-height: 464px;
+	max-width: 279px;
 }
 .Menu {
 	margin: 30px;
