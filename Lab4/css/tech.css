@@ -9,9 +9,9 @@ body {
 }
 header {
 	height: auto;
-	background-image: url('../img/tech_logo_black_s.png');
+	background-image: url("../img/tech_logo_black_s.png"), linear-gradient(to right, orange, transparent, transparent, transparent, transparent);
 	background-repeat: no-repeat;
-	background-color: transparent;
+	/*background-color: transparent;*/
 	/*border-bottom-left-radius: 40px 20px;*/
 	
 	
@@ -45,6 +45,7 @@ nav {
 	height: 18px;
 	margin-left: 0px;
 	
+	
 }
 footer {
 	clear:both;
@@ -55,7 +56,7 @@ footer {
 nav ul {
     list-style-type: none;
     margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    padding: 10px 10px 10px 10px;
 	display: inline;
 }
 nav ul li {
