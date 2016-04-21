@@ -3,12 +3,12 @@
 <head>
 <title>Techgames!</title>
 <meta charset="utf-8">
-<link href="css/bootstrap.css" rel="stylesheet"/>
+<link href="../css/bootstrap.css" rel="stylesheet"/>
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<link href="css/tech.css" type="text/css" rel="stylesheet">
-<meta name="description" content="Fake site for selling games">
+<link href="../css/tech.css" type="text/css" rel="stylesheet">
+	<meta name="description" content="Fake site for selling games">
 	<meta name="keywords" content="Examination, Fake site, game retailer">
 	<meta name="author" content="Skagul">
 	<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
@@ -20,42 +20,47 @@
 	<!--<img src="img/tech_logo_white.png" class="img-responsive"/>-->
 		<nav>
 			<ul>
-				<li><a class="current" href="index.html">Page</a></li>
-                <li><a href="pages/Product.html">Product</a></li>
-                <li><a href="pages/Feedback.html">Feedback</a></li>
-				<li><a href="pages/Product.html">Wishlist</a></li>
-				<li><a href="pages/Product.html">About</a></li>
+				<li><a href="../index.html">Page</a></li>
+                <li><a href="Product.html">Product</a></li>
+                <li><a class="current" href="Feedback.html">Feedback</a></li>
+				<li><a href="Product.html">Wishlist</a></li>
+				<li><a href="Product.html">About</a></li>
             </ul>
 		</nav>
 	</header>
 		<section class="Main">
-			<h2 class="nope">Product of the Day</h2>
-			<a href="pages/Product.html">
-			<img src="img/splash_logo_d3.png" alt="Diablo 3 Splash Logo" title="Buy Diablo 3 Now!"/>
-			</a>
-			<button class="button" type="button" >Buy now $21</button>
-				
-		<div class="dropdown">
 			
-			<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Pleased
-			<span class="caret"></span></button>
-			<ul class="dropdown-menu">
-				<li>&nbsp;&nbsp;I am not</li>
-				<li>&nbsp;&nbsp;Pleased with</li>
-				<li>&nbsp;&nbsp;This Website</li>
-				<li class="divider"></li>
-				<li>&nbsp;&nbsp;Reason</li>
-				<li>&nbsp;&nbsp;I still don't understand</li>
-				<li>&nbsp;&nbsp;Bootstrap classes</li>
-			</ul>
-		</div>
+			<h3>Community Feedback</h3>
+			<h4>Tell us what you think about the site</h4>
+			
+			<form role="form">
+					Name: <input type="text" name="Name"><br>
+					Email: <input type="email" name="email"><br>
+				
+				<div class="form-group">
+					<label for="Feedback">Select list (select one):</label>
+					<select class="form-control" id="Feedback">
+						<option>Very Pleased</option>
+						<option>Pleased</option>
+						<option>Decent but could use improvement</option>
+						<option>Needs Improvement</option>
+						<option>Horrible, but I care enough to tell you about it</option>
+						<textarea rows="4" cols="50"></textarea><br>
+						<input type="submit" value="Submit">
+					
+					</form>
+					</div>	
+					
+			
+			
+			
 			
 			</section>
-			<!--<section>-->
+			
 				<aside>
 					<section class="side">
 					<h2 class="nope">Weekend sale! -85%</h2>
-						<img src="img/C4.jpeg" alt="Caesar IV sale" title="Caesar 85% off this weekend only"/>
+						<img src="../img/C4.jpeg" alt="Caesar IV sale" title="Caesar 85% off this weekend only"/>
 				
 					</section>
 				<section class="side">
