@@ -11,7 +11,16 @@ header {
 	height: auto;
 	background-image: url('../img/tech_logo_black_s.png');
 	background-repeat: no-repeat;
-	background-color: transparent;
+	background-color: orange;
+	/*border-bottom-left-radius: 40px 20px;*/
+	
+	
+}
+header:hover {
+	height: auto;
+	background-image: url('../img/tech_logo_white_s.png');
+	background-repeat: no-repeat;
+	background-color: orange;
 	/*border-bottom-left-radius: 40px 20px;*/
 	
 	
@@ -124,4 +133,43 @@ footer:hover {
 .spoiler:active{
 	color: black;
 	background-color: transparent;
+}
+
+section.Main{
+	width:900px;
+	border-right: #fff solid 1px;
+	padding-right: 20px;
+	padding-left: 10px;
+	padding-top: 10px;
+	float: left;
+	
+	
+	
+}
+section.side{
+	padding-top: 10px;
+}
+aside {
+    width: 300px;
+    float: left;
+    padding: 0 0 0 20px;
+}
+aside img {
+	height: 200px;
+	width: 150px;
+	border-radius: 10px;
+}
+.button {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	
+}
+.button:hover{
+	color: black;
 }
