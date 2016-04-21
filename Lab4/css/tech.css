@@ -173,3 +173,19 @@ aside img {
 .button:hover{
 	color: black;
 }
+h2.nope {
+	text-shadow: 2px 2px orange;
+}
+h2.nope:hover {
+	background-color: orange;
+	text-shadow: 2px 2px white
+	
+}
+h3.nope {
+	text-shadow: 2px 2px orange;
+}
+h3.nope:hover {
+	background-color: orange;
+	text-shadow: 2px 2px white
+	
+}
